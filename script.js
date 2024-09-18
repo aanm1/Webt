@@ -31,8 +31,22 @@ function store(send,sende,receiver,receiveri,hisab){
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+  saver(datastring);
 }
 
+function saver(data){
+  const fs = require('fs');
+  var paper = data;
+// Writing to a file (overwrites the file if it already exists)
+  fs.writeFile('saver.txt',paper, (err) => {
+      if (err) {
+          console.error('Error writing to the file', err);
+      } else {
+          console.log('File written successfully!');
+      }
+  });
+
+}
 
 function login(){
   var email = document.getElementById("eadd").value;
