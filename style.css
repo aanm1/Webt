@@ -1,0 +1,75 @@
+#first{
+  height: 100%;
+  width: 100%;
+  background-color: silver;
+}
+
+#name{
+  background-color: lightblue;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#dis{
+  background-color:white;
+}
+#con{
+  background-color:white;
+}
+#Bank{
+  text-align: center;
+  color: black; 
+}
+#gpt{
+  size: 10px;
+  align-content: center;
+}
+
+/* First page is below */
+
+#prime{
+  background-color: black;
+}
+#title{
+  text-align: center;
+  color: White;
+}
+#eadd{
+  background-color:White;
+}
+
+#password{
+  background-color: white;
+  color: black;
+}
+#info{
+  position: center;
+}
+
+#log{
+  background-color:white;
+}
+
+#foot{
+  color:White;
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+  }
+
+}
+
+#webp {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 20px;
+  left: 38%; 
+  transform: t 
+  
+}

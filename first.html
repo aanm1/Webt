@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html id="first">
+<title> Bank of E </title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p id="Bank">Bank of E</p>
+  <img id="gpt" src="path-to-image.png" alt="Bank of E Logo">
+
+  <p>Welcome to the site we hope you have a good day.</p>
+  <p id="con">This site is completley educational and does not operate in any offical treasury activities </p>
+  <p id="dis">The information provided on this website is for general informational and educational purposes only. All content on this site is provided in good faith; however, we make no representations or warranties of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site. 
+
+  The content is not intended to be a substitute for professional advice, and users are encouraged to seek the guidance of qualified experts. Use of the information is at your own risk.
+</p>
+  <p>Our bank provides a quick and efficent money transfer to Ethiopia</p>
+  <p>Our services are:</p>
+  <ol>
+    <li>Quick</li>
+    <li>Accessible</li>
+    <li>Transparent</li>
+    <li> Reliable</li>
+  </ol>
+  <p>We provide a continous information in the exchange market to help our customers to be fully informed on the transaction they make into the prespective destination of transaction</p>
+  <label for = "senders">Sender's Information:</label>
+  <div name ="senders">
+    <input type="text" id = "name" placeholder="Enter your name here" required>
+    <input type="number" id="number" placeholder="Enter your bank card number" required>
+    <input type="number" id="cvv" placeholder="Enter ypur cvv number" required>
+    <label for ="currency">Currency:</label>
+    <select name ="currency" id="currencies" required>
+      <option value="USD" selected>USD</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+    </select>
+    
+  </div>
+  <label for ="recievers">Receiver's Information:</label>
+  <div name = "recievers">
+    <input type="text" id="tekebay" placeholder="Enter receivers name" required>
+    <input type="number" id="receiver" placeholder="Enter receivers account number" required>
+</div>
+   
+<label for ="transact">Transaction Information:</label>
+<div name = "transact">
+    <input type="number" id="amount" placeholder="Enter amount transfer" required>
+    <input type="date" id="date" placeholder="Enter the expiration date of the card" required>
+</div>
+  <input type="submit" onclick="lakew()" value="Submit">
+  
+  <br>
+  
+  <iframe src="https://www.ethioblackmarket.com/" width="600" height="400" frameborder="0"></iframe>
+  <script src="script.js"></script>
+</body>
+
+</html>
