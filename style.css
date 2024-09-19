@@ -73,3 +73,11 @@
   transform: t 
   
 }
+
+#sign{
+  width: 30px;
+  height: 30px;
+  background-color:white;
+  color: white;
+  shape:square;
+}
