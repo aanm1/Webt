@@ -59,7 +59,7 @@ function login(){
 
   if (store[email] == password){
     alert("Login Sucessful, Redirecting to main site...");
-    window.open("first.html");
+    window.location("first.html");
   }else{
     alert("Wrong Email or Password, please try again");
   }
