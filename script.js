@@ -64,3 +64,10 @@ function login(){
     alert("Wrong Email or Password, please try again");
   }
 }
+
+
+function sign(){
+  var si = prompt("Please Enter a Suitable Email to sign up");
+  var gn = prompt("Please Enter a Suitable Password to sign up");
+  
+}
