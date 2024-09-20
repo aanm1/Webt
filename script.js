@@ -51,7 +51,7 @@ function saver(data){
 function login(){
   var email = document.getElementById("eadd").value;
   var pass = document.getElementById("password").value;
-  /*var gif = documnet.getElementById("gif");*/
+  var gif = documnet.getElementById("gif");
 
   var password = String(pass)
 
@@ -61,6 +61,7 @@ function login(){
   if (store[email] == password){
     alert("Login Sucessful, Redirecting to main site...");
     window.location.href="first.html";
+    gif.src = 'webgif.webp';
   }else{
     alert("Wrong Email or Password, please try again");
   }
