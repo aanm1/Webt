@@ -1,4 +1,4 @@
-var store ={"agg@gmail.com":"12345678","echu@gmail.com":"912345678"};
+var stores ={"agg@gmail.com":"12345678","echu@gmail.com":"912345678"};
 
 function lakew (){
   var sender = document.getElementById("name").value;
@@ -36,32 +36,17 @@ function store(send,sende,receiver,receiveri,hisab){
   saver(datastring);
 }
 
-function saver(data){
-  const fs = require('fs');
-  var paper = data;
-// Writing to a file (overwrites the file if it already exists)
-  fs.writeFile('saver.txt',paper, (err) => {
-      if (err) {
-          console.error('Error writing to the file', err);
-      } else {
-          console.log('File written successfully!');
-      }
-  });
-
-}
-
 function login(){
   var email = document.getElementById("eadd").value;
   var pass = document.getElementById("password").value;
-  var gif = documnet.getElementById("gif");
+  var gif = document.getElementById("gif");
 
   var password = String(pass)
 
-  
-
-
   if (store[email] == password){
     alert("Login Sucessful, Redirecting to main site...");
+    gif.src = 'webgif.webp';
+    gif.style.display = 'block'; 
     window.location.href="first.html";
   }else{
     alert("Wrong Email or Password, please try again");
@@ -73,5 +58,6 @@ function sign(){
   var si = prompt("Please Enter a Suitable Email to sign up");
   var gn = prompt("Please Enter a Suitable Password to sign up");
   store[si]=gn;
+  alert("Sign Up is now succesful, You may proceed to login");
   
 }
