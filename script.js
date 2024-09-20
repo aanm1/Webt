@@ -59,5 +59,6 @@ function sign(){
   var gn = prompt("Please Enter a Suitable Password to sign up");
   stores[si]=gn;
   alert("Sign Up is now succesful, You may proceed to login");
+  alert(stores);
   
 }
