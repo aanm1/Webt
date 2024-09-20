@@ -51,7 +51,7 @@ function saver(data){
 function login(){
   var email = document.getElementById("eadd").value;
   var pass = document.getElementById("password").value;
-  var gif = documnet.getElementById("gif").value;
+  /*var gif = documnet.getElementById("gif");*/
 
   var password = String(pass)
 
