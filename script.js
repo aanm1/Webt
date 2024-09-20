@@ -60,5 +60,6 @@ function sign(){
   stores[si]=gn;
   alert("Sign Up is now succesful, You may proceed to login");
   alert(stores);
+  alert("Did you saw stores");
   
 }
