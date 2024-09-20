@@ -1,3 +1,5 @@
+var store ={"agg@gmail.com":"12345678","echu@gmail.com":"912345678"};
+
 function lakew (){
   var sender = document.getElementById("name").value;
   var senderi = document.getElementById("number").value;
@@ -55,13 +57,11 @@ function login(){
 
   var password = String(pass)
 
-  var store ={"agg@gmail.com":"12345678","echu@gmail.com":"912345678"}
+  
 
 
   if (store[email] == password){
     alert("Login Sucessful, Redirecting to main site...");
-    gif.src = 'webgif.webp';
-    gif.style.display = 'block';
     window.location.href="first.html";
   }else{
     alert("Wrong Email or Password, please try again");
@@ -72,5 +72,6 @@ function login(){
 function sign(){
   var si = prompt("Please Enter a Suitable Email to sign up");
   var gn = prompt("Please Enter a Suitable Password to sign up");
+  store[si]=gn;
   
 }
