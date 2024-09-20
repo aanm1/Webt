@@ -43,7 +43,7 @@ function login(){
 
   var password = String(pass)
 
-  if (store[email] == password){
+  if (stores[email] == password){
     alert("Login Sucessful, Redirecting to main site...");
     gif.src = 'webgif.webp';
     gif.style.display = 'block'; 
@@ -57,7 +57,7 @@ function login(){
 function sign(){
   var si = prompt("Please Enter a Suitable Email to sign up");
   var gn = prompt("Please Enter a Suitable Password to sign up");
-  store[si]=gn;
+  stores[si]=gn;
   alert("Sign Up is now succesful, You may proceed to login");
   
 }
