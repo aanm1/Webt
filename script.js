@@ -61,7 +61,6 @@ function login(){
   if (store[email] == password){
     alert("Login Sucessful, Redirecting to main site...");
     window.location.href="first.html";
-    gif.src = 'webgif.webp';
   }else{
     alert("Wrong Email or Password, please try again");
   }
