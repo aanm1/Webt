@@ -49,7 +49,7 @@ function login(){
     gif.style.display = 'block';
     setTimeout(function(){
     window.location.href="first.html";
-    },5000);
+    },2000);
   }else{
     alert("Wrong Email or Password, please try again");
   }
