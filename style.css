@@ -93,3 +93,7 @@
 #lt{
   Text-align:center;
 }
+#graph{
+  position:absolute;
+  right:35%;
+}
