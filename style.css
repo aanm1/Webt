@@ -81,9 +81,7 @@
 
 @keyframes picture{
   0%{left:0%; top:20px;}
-  25%{left:50%; top:0px;}
   50%{left:90%;top:0px}
-  75%{left:50%;top:0px}
   100%{left:0%;top:0px}
 }
 
