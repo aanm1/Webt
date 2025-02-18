@@ -54,7 +54,8 @@
 
 #foot{
   color:White;
-  footer {
+}
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -63,8 +64,6 @@
     text-align: center;
     padding: 10px;
   }
-
-}
 
 #webp {
   position: relative;
