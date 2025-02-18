@@ -67,14 +67,26 @@
 }
 
 #webp {
-  position: absolute;
+  position: relative;
   height: 120px;
   width: 120px;
   top: 20px;
-  left: 38%; 
-  transform: t 
+  left: 0%; 
+  animation-name: picture;
+  animation-duration:20s;
+  animation-iteration-count: infinite;
+
   
 }
+
+@keyframes picture{
+  0%{left:0%; top:20px;}
+  25%{left:50%; top:0px;}
+  50%{left:90%;top:0px}
+  75%{left:50%;top:0px}
+  100%{left:0%;top:0px}
+}
+
 
 #sign{
   border-radius:0;
